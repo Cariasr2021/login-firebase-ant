@@ -5,6 +5,7 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
+import Login from "./components/Login";
 import 'antd/dist/antd.css';
 import './App.css'
 import NavBar from "./components/NavBar";
@@ -23,13 +24,12 @@ function App() {
           />
           <Route 
             path="/login" 
-            element={<h3>Login...</h3>}
+            element={<Login />}
           />
           <Route 
             path="/admin" 
             element={<h3>Admin...</h3>}
           />
-          
         </Routes>
       </div>
     </Router>

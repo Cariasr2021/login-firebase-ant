@@ -12,3 +12,19 @@
 .ant-menu-item .ant-menu-item-icon + span, .ant-menu-submenu-title .ant-menu-item-icon + span, .ant-menu-item .anticon + span, .ant-menu-submenu-title .anticon + span{
   margin-left: 0;
 }
+
+.titulo-usuarios{
+  margin-top: 20px;
+}
+
+.border {
+  border: solid 1px rgb(201, 198, 198);
+}
+.container-principal{
+  display: flex;
+  justify-content: center;
+  /* border: solid 1px #777;
+  padding: 40px 40px 10px 40px;
+  width: 450px;
+  margin: 0 auto; */
+}
