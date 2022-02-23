@@ -28,3 +28,14 @@
   width: 450px;
   margin: 0 auto; */
 }
+
+.alerta-login{
+  margin-bottom: 20px;
+}
+.button-nav{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  color: rgba(255, 255, 255, 0.65);
+  background: #001529;
+}
